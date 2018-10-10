@@ -1,5 +1,7 @@
 package extra;
 
-public class Taco {
+public class Taco { 
+	private String meat = "";
+	private String sauce = "";
 
 }
