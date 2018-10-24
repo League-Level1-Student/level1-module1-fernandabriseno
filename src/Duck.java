@@ -9,11 +9,11 @@ public class Duck {
 	       this.favoriteFood = favoriteFood;
 	       this.numberOfFriends = numberOfFriends; 
 	       
-	       Dog(String favoriteFood, int numberOfFriends) {
-	           this.favoriteFood = favoriteFood;
-	           this.numberOfFriends = numberOfFriends;
+	      // Dog(String favoriteFood, int numberOfFriends) {
+	           //this.favoriteFood = favoriteFood;
+	          // this.numberOfFriends = numberOfFriends;
 	    }
-	}
+	//}
 
 	private void Dog(java.lang.String string2, int numberOfFriends2) {
 		// TODO Auto-generated method stub

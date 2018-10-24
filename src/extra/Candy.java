@@ -28,7 +28,7 @@ public class Candy {
     
     
 	public static void main(String[] args) {
-	Candy candy = new candy;
+	//Candy candy = new candy;
 		
 		
 		
