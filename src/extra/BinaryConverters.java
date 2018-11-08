@@ -17,7 +17,8 @@ public static void main(String[] args) {
 	new BinaryConverters().getGoing();
 }
 	
-private void getGoing() {
+private void getGoing() { 
+	
 	JFrame frame = new JFrame(); 
 	frame.setVisible(true); 
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
@@ -34,7 +35,7 @@ private void getGoing() {
 	JButton button = new JButton(); 
 	button.setText("Convert"); 
 	panel.add(button); 
-	
+	button.addMouseListener(this);
 	} 
 	 String convert(String input) {
          if(input.length() != 8){
@@ -59,10 +60,11 @@ private void getGoing() {
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub 
-		String convertedBinary;
-	convertedBinary=	inputText.getText();  
-	answerLabel.setText( convert(convertedBinary));
-		
+		String myBinary;
+	myBinary=inputText.getText();   
+	//System.out.println(myBinary);
+	answerLabel.setText(convert(myBinary)); 
+	
 	}
 
 	@Override
